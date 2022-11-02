@@ -31,7 +31,7 @@ namespace FooBarQix.Tests
         [Fact]
         public void Determine_Test13()
         {
-            string expected = "13";
+            string expected = "Foo";
             FooBarQixDeterminer determiner = new FooBarQixDeterminer();
 
             string actual = determiner.Determine(13);

@@ -20,6 +20,18 @@ namespace FooBarQix
             {
                 result += "Qix";
             }
+            if (Convert.ToString(input).Contains("3"))
+            {
+                result += "Foo";
+            }
+            if (Convert.ToString(input).Contains("5"))
+            {
+                result += "Bar";
+            }
+            if (Convert.ToString(input).Contains("7"))
+            {
+                result += "Qix";
+            }
 
             if (result == "") { return Convert.ToString(input); }
             return result;
